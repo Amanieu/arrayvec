@@ -5,6 +5,8 @@ env:
 matrix:
   include:
     - rust: 1.13.0
+    - rust: 1.19.0
+    - rust: 1.20.0
     - rust: stable
       env:
         - NODEFAULT=1
